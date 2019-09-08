@@ -429,7 +429,7 @@ cache.persist("key") # 设置key永不超时，0表示已经过期，Node表示�
 
 
 
-### 支付宝支付
+### 支付
 
 #### SDK、库
 
@@ -501,6 +501,26 @@ alipay.verify
 [自行实现验签 ](https://docs.open.alipay.com/200/106120)
 
 
+
+#### 私钥、公钥、CA认证
+
+用一套加密规则 加密和解密
+
+RSA加密 （非对称的加密）
+
+摘要算法：MD5    FTP/互联网下载软件校验MD5
+
+私钥  --RSA算法-->公钥
+
+[RSA原理](http://www.ruanyifeng.com/blog/2013/06/rsa_algorithm_part_one.html)
+
+加密解密：只要你有我的公钥你就能知道我发的消息是什么。
+
+数字签名：只要用我的公钥把一个消息解密了，那么这个消息就一定是我发的。
+
+
+
+小故事：[公钥、私钥、CA认证阅读](http://www.ruanyifeng.com/blog/2011/08/what_is_a_digital_signature.html)
 
 
 
