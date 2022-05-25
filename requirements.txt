@@ -16,5 +16,5 @@ requests==2.21.0
 shellescape==3.4.1
 # urllib3==1.24.1
 python-alipay-sdk==1.9
-pyjwt==1.7.1
+pyjwt==2.4.0
 uWSGI==2.0.17.1
