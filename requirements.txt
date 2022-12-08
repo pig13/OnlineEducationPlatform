@@ -1,4 +1,4 @@
-certifi==2018.11.29
+certifi==2022.12.7
 chardet==3.0.4
 # crypto==1.4.1
 Django==2.1.11 # 为方便测试采用2.1.11版本，在django 2.2版本将sqlite最低支持版本提高为3.8.3，Python3.7以下版本运行会报错
